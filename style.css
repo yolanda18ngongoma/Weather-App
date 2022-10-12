@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    background-color:yellow;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('images/5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+.card{
+    background-color:pink ;
+    color: white;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+button{
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 2.5em;
+    width: 2.5em;
+    outline: none;
+    background-color: antiquewhite;
+}
+
+.search-bar{
+    border: none;
+    outline: none;
+    padding: 0.5em 1em;
+    border-radius: 24px;
+    background-color: antiquewhite;
+    font-family: inherit;
+    font-size: 120%;
+
+}
+
+
+    
